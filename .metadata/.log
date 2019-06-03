@@ -1330,3 +1330,53 @@ Contains: Missing org.springframework.boot:spring-boot-starter-jdbc:jar:javadoc:
 !MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-jdbc:jar:javadoc:2.1.5.RELEASE
 !SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-06-03 11:41:07.605
 !MESSAGE Missing org.springframework.boot:spring-boot-starter-jdbc:jar:javadoc:2.1.5.RELEASE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-03 14:10:20.037
+!MESSAGE Preparing classpath changed notification PhotoAppAPIUsers
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-03 14:10:20.040
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-03 14:10:20.044
+!MESSAGE classpath=165 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-03 14:10:20.044
+!MESSAGE executing callback sts4.classpath.SCMjtThY PhotoAppAPIUsers false 165
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-03 14:10:20.053
+!MESSAGE executing callback sts4.classpath.SCMjtThY SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-03 14:10:21.723
+!MESSAGE Preparing classpath changed notification PhotoAppAPIUsers
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-03 14:10:21.724
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-03 14:10:21.728
+!MESSAGE classpath=165 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-03 14:10:21.728
+!MESSAGE executing callback sts4.classpath.SCMjtThY PhotoAppAPIUsers false 165
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-03 14:10:21.733
+!MESSAGE executing callback sts4.classpath.SCMjtThY SUCCESS [done]
+
+!ENTRY org.eclipse.jface.text 4 0 2019-06-03 14:38:57.567
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.getField(BinaryTypeBinding.java:1255)
+	at org.eclipse.jdt.internal.compiler.lookup.AnnotationBinding.buildTargetAnnotation(AnnotationBinding.java:169)
+	at org.eclipse.jdt.internal.compiler.lookup.AnnotationBinding.addStandardAnnotations(AnnotationBinding.java:79)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.retrieveAnnotations(BinaryTypeBinding.java:1631)
+	at org.eclipse.jdt.internal.compiler.lookup.ReferenceBinding.getAnnotations(ReferenceBinding.java:1016)
+	at org.eclipse.jdt.core.dom.TypeBinding.getAnnotations(TypeBinding.java:121)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getAnnotations(JavadocHover.java:1192)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.addAnnotations(JavadocHover.java:1149)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:757)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
